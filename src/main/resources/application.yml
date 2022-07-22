@@ -1,0 +1,13 @@
+spring:
+  jsch:
+    proxy-host: 192.168.10.101
+    proxy-port: 22
+    proxy-user: root
+    proxy-password: 622848
+    dest-host: 192.168.10.101
+    dest-port: 3306
+    local-port: 3308
+  datasource:
+    url: jdbc:mysql://localhost:3308/atguigudb?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 622848
